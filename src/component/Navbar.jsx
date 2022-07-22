@@ -29,7 +29,7 @@ const Navbar = () => {
 
           <button
             onClick={handleLogout}
-            className="bg-red-600 px-6 py-2 rounded text-white"
+            className="bg-red-600 px-6 py-2 rounded cursor-pointer text-white"
           >
             Logout
           </button>
@@ -40,7 +40,7 @@ const Navbar = () => {
             <button className="text-white pr-4">Sign In</button>
           </Link>
           <Link to="signup">
-            <button className="bg-red-600 px-6 py-2 rounded text-white">
+            <button className="bg-red-600 px-6 py-2 rounded cursor-pointer text-white">
               Sign UP
             </button>
           </Link>
